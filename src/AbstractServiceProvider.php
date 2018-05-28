@@ -11,7 +11,7 @@ use Psr\Container\ContainerInterface;
  * This was done just for convenience, for keeping register and boot
  * methods signatures clear from params and easy to extend
  */
-abstract class ServiceProvider implements ServiceProviderContract
+abstract class AbstractServiceProvider implements ServiceProviderContract
 {
     /**
      * @var ContainerInterface

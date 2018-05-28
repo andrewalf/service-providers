@@ -7,7 +7,7 @@ use Andrewalf\Exceptions\ServiceProviderContractNotImplementedException;
 use Andrewalf\ServiceProviderRunner;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Tests\Data\ServiceProviderSpy;
+use Tests\Data\AbstractServiceProviderSpy;
 use Tests\Data\WrongServiceProvider;
 
 class ServiceProviderRunnerTest extends TestCase
@@ -38,7 +38,7 @@ class ServiceProviderRunnerTest extends TestCase
     {
         $providers = [
             RandomClass::class,
-            ServiceProviderSpy::class,
+            AbstractServiceProviderSpy::class,
         ];
 
         $providerRunner = $this->createRunner($providers);
@@ -55,7 +55,7 @@ class ServiceProviderRunnerTest extends TestCase
     public function testRunProvidersCorrectInput()
     {
         # arrange
-        $serviceProviderSpy = new ServiceProviderSpy();
+        $serviceProviderSpy = new AbstractServiceProviderSpy();
         $containerMock = $this->getMockBuilder(ContainerInterface::class)->getMock();
 
         $runnerMock = $this->getMockBuilder(ServiceProviderRunner::class)

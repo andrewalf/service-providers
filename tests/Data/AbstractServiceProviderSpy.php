@@ -2,13 +2,13 @@
 
 namespace Tests\Data;
 
-use Andrewalf\ServiceProvider;
+use Andrewalf\AbstractServiceProvider;
 
 /**
  * SP that logs actions order.
  * A simple test-double spy realisation
  */
-class ServiceProviderSpy extends ServiceProvider
+class AbstractServiceProviderSpy extends AbstractServiceProvider
 {
     private $methodCalls = [];
 

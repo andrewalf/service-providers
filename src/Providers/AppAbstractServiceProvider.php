@@ -2,12 +2,12 @@
 
 namespace Andrewalf\Providers;
 
-use Andrewalf\ServiceProvider;
+use Andrewalf\AbstractServiceProvider;
 
 /**
- * Register all app routes in simple and intuitive way.
+ * Here you can register all common components and services.
  */
-class RouteServiceProvider extends ServiceProvider
+class AppAbstractServiceProvider extends AbstractServiceProvider
 {
     /**
      * Register dependencies in container.
@@ -15,14 +15,12 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        // $app var is user inside required file
-        $app = $this->container->get('app');
+        // example with monolog
 
-        // These routes all receive session state.
-        require './../routes/web.php';
-
-        // These routes are typically stateless.
-        require './../routes/api.php';
+        /* $this->container['logger'] = function ($c) {
+            $logger = new Logger([...]);
+            return $logger;
+        }; */
     }
 
     /**
