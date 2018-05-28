@@ -1,5 +1,5 @@
 {
-    "name": "andrewalf/slim_service_provider",
+    "name": "andrewalf/service_providers",
     "description": "Laravel-like service providers for slim framework",
     "type": "package",
     "license": "MIT",
