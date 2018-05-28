@@ -1,0 +1,29 @@
+{
+    "name": "andrewalf/slim_service_provider",
+    "description": "Laravel-like service providers for slim framework",
+    "type": "package",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Andrew Alferenkov",
+            "email": "alferenkovandrei3373@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Andrewalf\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "tests": "./vendor/bin/phpunit --bootstrap vendor/autoload.php tests"
+    }
+}
