@@ -27,8 +27,9 @@ In **register** method, which called first, you should register dependencies in 
 In **boot** method feel free to modify and configure your app as you want. For example, you can
 create *EventListenersServiceProvider* where keep all your listeners attachments.
 
-### Usage example for Slim 3 framework.
+## Usage example for Slim 3 framework.
 
+**index.php**
 ```php
     $app = new \Slim\App($settings);
     $container = $app->getContainer();
@@ -40,6 +41,14 @@ create *EventListenersServiceProvider* where keep all your listeners attachments
     
     $providersArray = require '../service_providers.php';
     (new \Andrewalf\ServiceProviderRunner($app->getContainer(), $providersArray))->runProviders();
+```
+
+**service_providers.php**
+```php
+    return [
+        \Andrewalf\RouteServiceProvider::class,
+        \Andrewalf\AppServiceProvider::class
+    ];
 ```
 
 ## RouteServiceProvider
