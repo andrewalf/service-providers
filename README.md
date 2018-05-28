@@ -32,4 +32,5 @@ create *EventListenersServiceProvider* where keep all your listeners attachments
 This is made mostly for Slim.
 This provider loads app routes from separated files: web.php and api.php. Path to these files is
 hardcoded in provider. Feel free to copy and modify it.
-TODO: composer command for coping package providers to your providers directory.
+
+**TODO**: composer command for coping package providers to your providers directory.
