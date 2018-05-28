@@ -1,4 +1,4 @@
-# Laravel-like service containers.
+# Laravel-like service providers.
 
 This package is made for Slim, to make it's configuration a little bit better, but
 you can use it in any project. This package is framework agnostic, it relies only on PSR-11
