@@ -6,7 +6,7 @@ Container interface.
 
 ## Installing
 ```
-php artisan require andrewalf/service_providers
+composer require andrewalf/service_providers
 ```
 
 ## Running the tests
