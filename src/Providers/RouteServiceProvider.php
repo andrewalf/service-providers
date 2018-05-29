@@ -7,7 +7,7 @@ use Andrewalf\ServiceProviders\AbstractServiceProvider;
 /**
  * Register all app routes in simple and intuitive way.
  */
-class RouteAbstractServiceProvider extends AbstractServiceProvider
+class RouteServiceProvider extends AbstractServiceProvider
 {
     /**
      * Register dependencies in container.
