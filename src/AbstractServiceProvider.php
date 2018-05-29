@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrewalf;
+namespace Andrewalf\ServiceProviders;
 
-use Andrewalf\Contracts\ServiceProviderContract;
+use Andrewalf\ServiceProviders\Contracts\ServiceProviderContract;
 use Psr\Container\ContainerInterface;
 
 /**
