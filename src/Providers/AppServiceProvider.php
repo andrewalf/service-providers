@@ -7,7 +7,7 @@ use Andrewalf\ServiceProviders\AbstractServiceProvider;
 /**
  * Here you can register all common components and services.
  */
-class AppAbstractServiceProvider extends AbstractServiceProvider
+class AppServiceProvider extends AbstractServiceProvider
 {
     /**
      * Register dependencies in container.
