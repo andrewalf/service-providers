@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrewalf\Providers;
+namespace Andrewalf\ServiceProviders\Providers;
 
-use Andrewalf\AbstractServiceProvider;
+use Andrewalf\ServiceProviders\AbstractServiceProvider;
 
 /**
  * Register all app routes in simple and intuitive way.
