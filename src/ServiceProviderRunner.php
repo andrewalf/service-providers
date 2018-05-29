@@ -1,10 +1,10 @@
 <?php
 
-namespace Andrewalf;
+namespace Andrewalf\ServiceProviders;
 
-use Andrewalf\Contracts\ServiceProviderContract;
-use Andrewalf\Exceptions\ServiceProviderClassNotFound;
-use Andrewalf\Exceptions\ServiceProviderContractNotImplementedException;
+use Andrewalf\ServiceProviders\Contracts\ServiceProviderContract;
+use Andrewalf\ServiceProviders\Exceptions\ServiceProviderClassNotFound;
+use Andrewalf\ServiceProviders\Exceptions\ServiceProviderContractNotImplementedException;
 use Psr\Container\ContainerInterface;
 
 /**
