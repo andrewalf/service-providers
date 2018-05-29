@@ -7,8 +7,8 @@ use Andrewalf\Exceptions\ServiceProviderContractNotImplementedException;
 use Andrewalf\ServiceProviderRunner;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Tests\Data\AbstractServiceProviderSpy;
-use Tests\Data\WrongServiceProvider;
+use Andrewalf\ServiceProviders\Tests\Data\AbstractServiceProviderSpy;
+use Andrewalf\ServiceProviders\Tests\Data\WrongServiceProvider;
 
 class ServiceProviderRunnerTest extends TestCase
 {
