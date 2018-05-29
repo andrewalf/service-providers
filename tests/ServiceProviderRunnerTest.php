@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Andrewalf\ServiceProviders\Tests;
 
 use Andrewalf\Exceptions\ServiceProviderClassNotFound;
 use Andrewalf\Exceptions\ServiceProviderContractNotImplementedException;
