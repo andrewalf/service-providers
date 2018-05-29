@@ -16,8 +16,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Andrewalf\\": "src/",
-            "Tests\\": "tests/"
+            "Andrewalf\\ServiceProviders\\": "src/",
+            "Andrewalf\\ServiceProviders\\Tests\\": "tests/"
         }
     },
     "require-dev": {
