@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrewalf\Exceptions;
+namespace Andrewalf\ServiceProviders\Exceptions;
 
 /**
  * Exception when custom service provider doesn't
