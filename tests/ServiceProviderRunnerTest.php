@@ -2,9 +2,9 @@
 
 namespace Andrewalf\ServiceProviders\Tests;
 
-use Andrewalf\Exceptions\ServiceProviderClassNotFound;
-use Andrewalf\Exceptions\ServiceProviderContractNotImplementedException;
-use Andrewalf\ServiceProviderRunner;
+use Andrewalf\ServiceProviders\Exceptions\ServiceProviderClassNotFound;
+use Andrewalf\ServiceProviders\Exceptions\ServiceProviderContractNotImplementedException;
+use Andrewalf\ServiceProviders\ServiceProviderRunner;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 use Andrewalf\ServiceProviders\Tests\Data\AbstractServiceProviderSpy;
