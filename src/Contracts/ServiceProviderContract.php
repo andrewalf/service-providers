@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrewalf\Contracts;
+namespace Andrewalf\ServiceProviders\Contracts;
 
 use Psr\Container\ContainerInterface;
 
