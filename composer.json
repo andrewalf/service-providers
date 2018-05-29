@@ -1,7 +1,7 @@
 {
     "name": "andrewalf/service_providers",
     "description": "Laravel-like service providers for slim framework",
-    "type": "package",
+    "type": "library",
     "license": "MIT",
     "version": "1.0.0",
     "authors": [
@@ -14,9 +14,13 @@
     "require": {
         "psr/container": "^1.0"
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "Andrewalf\\ServiceProviders\\": "src/",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Andrewalf\\ServiceProviders\\Tests\\": "tests/"
         }
     },
