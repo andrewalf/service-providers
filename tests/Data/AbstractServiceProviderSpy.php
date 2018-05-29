@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Data;
+namespace Andrewalf\ServiceProviders\Tests\Data;
 
 use Andrewalf\AbstractServiceProvider;
 
