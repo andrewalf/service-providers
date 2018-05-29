@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrewalf\Providers;
+namespace Andrewalf\ServiceProviders\Providers;
 
-use Andrewalf\AbstractServiceProvider;
+use Andrewalf\ServiceProviders\AbstractServiceProvider;
 
 /**
  * Here you can register all common components and services.
