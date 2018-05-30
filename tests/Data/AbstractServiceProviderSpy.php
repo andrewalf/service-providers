@@ -2,7 +2,7 @@
 
 namespace Andrewalf\ServiceProviders\Tests\Data;
 
-use Andrewalf\AbstractServiceProvider;
+use Andrewalf\ServiceProviders\AbstractServiceProvider;
 
 /**
  * SP that logs actions order.
